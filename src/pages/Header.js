@@ -11,12 +11,12 @@ const Header = ({ searchFn }) => {
     <div style={{ width: "100%" }}>
       <p
         style={{
-          "background-image": "url('../Slices/nav_bar.png')",
+          "background-image": "url('images/nav_bar.png')",
         }}
       >
         <Row className="text-center row">
           <Col xs={3} sm={3} md={3} lg={3} style={{ marginTop: "18px" }}>
-            <img src="../Slices/Back.png" width="30" height="30" alt="Back" />
+            <img src="images/back.png" width="30" height="30" alt="Back" />
           </Col>
           <Col style={{ color: "white" }} xs={6} sm={6} md={6} lg={6}>
             <h1 style={{ fontSize: "1.3rem", marginTop: "20px" }}>
