@@ -16,7 +16,7 @@ const Header = ({ searchFn }) => {
       >
         <Row className="text-center row">
           <Col xs={3} sm={3} md={3} lg={3} style={{ marginTop: "18px" }}>
-            <img src="images/Back.png" width="30" height="30" alt="Back" />
+            <img src="Slices/Back.png" width="30" height="30" alt="Back" />
           </Col>
           <Col style={{ color: "white" }} xs={6} sm={6} md={6} lg={6}>
             <h1 style={{ fontSize: "1.3rem", marginTop: "20px" }}>
