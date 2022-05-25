@@ -18,7 +18,7 @@ const List = ({ moviesList }) => {
               <Col xs={4} sm={4} md={4} lg={4}>
                 <div className="listContent">
                   <div className="contentImg">
-                    <img src={`/Slices/${obj["poster-image"]}`} alt="Error" />
+                    <img src={`Slices/${obj["poster-image"]}`} alt="Error" />
                   </div>
                   <div className="item-name">{obj.name}</div>
                 </div>
